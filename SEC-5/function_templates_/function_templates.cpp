@@ -15,7 +15,7 @@ int main(){
     string f {"world"};
 
     cout << maximum(a,b) << endl;
-    cout << maximum(c,d) << endl;
+    cout << maximum<double>(c,d) << endl;
     cout << maximum(e,f) << endl;
 
     return 0;
